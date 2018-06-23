@@ -20,7 +20,6 @@ public static void main(String[] args) {
     printSumPairs(a,power);      
 }
 
-
 public static void printSumPairs(int []input, int k){
     HashMap<Integer, Integer> pairs = new HashMap<Integer, Integer>();
     for(int i=0;i<input.length;i++){
